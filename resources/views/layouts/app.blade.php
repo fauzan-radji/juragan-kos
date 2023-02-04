@@ -41,9 +41,14 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('home') }}">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('kamar') }}">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Kamar</span></a>
       </li>
 
       <!-- Divider -->

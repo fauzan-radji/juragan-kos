@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class TipeKamar extends Model
+class Kamar extends Model
 {
   use HasFactory;
 
-  protected $guarded = ['id'];
-  protected $table = 'tipe_kamar';
+  protected $fillable = ['nama', 'tipe_kamar_id', 'luas', 'harga'];
+  protected $table = 'kamar';
 }

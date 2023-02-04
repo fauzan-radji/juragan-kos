@@ -15,17 +15,17 @@ class TipeKamarSeeder extends Seeder
    */
   public function run()
   {
-    TipeKamar::created([
+    TipeKamar::create([
       'tipe' => 'Keluarga',
       'keterangan' => ''
     ]);
 
-    TipeKamar::created([
+    TipeKamar::create([
       'tipe' => 'Karyawan',
       'keterangan' => ''
     ]);
 
-    TipeKamar::created([
+    TipeKamar::create([
       'tipe' => 'Mahasiswa',
       'keterangan' => ''
     ]);
